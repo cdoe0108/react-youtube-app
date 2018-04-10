@@ -1,0 +1,64 @@
+{
+  "name": "UtubeSample",
+  "version": "1.0.8",
+  "defualt_locale": "en-US",
+  "display": "UtubeSample",
+  "theme": "#e7266d",
+  "subtitle": "One stop destination for Premium Movies, TV & Music",
+  "origin": "app://utubesample.jio.com",
+  "locales": {
+    "en-US": {
+      "name": "UtubeSample",
+      "description": "English Layout"
+    }
+  },
+  "datastores-access": {
+    "jio_service_store": {
+      "access": "readonly",
+      "description": "Jio Service store"
+    }
+  },
+  "developer": {
+    "name": "Jio Media",
+    "url": "http://jio.com"
+  },
+  "description": "Youtube sample is an ondemand video library from Reliance Jio Infocomm Ltd. We have over 1 lakh+ hours of exciting content: movies, TV Shows, music, videos, clips, trailers for our viewers. Enjoy and browse through Hindi, English, Tamil, Kannada, Marathi, Telugu, Bengali, Gujarati, Bhojpuri, Malayalam,Punjabi & dubbed content. Downloadnow",
+  "launch_path": "/dist/index.html",
+  "icons": {
+    "56": "/resources/icon56x56.png",
+    "84": "/resources/icon84x84.png"
+  },
+  "type": "privileged",
+  "fullscreen": true,
+  "permissions": {
+    "themeable": {
+      "name": "themeable"
+    },
+    "systemXHR": {
+      "description": "This permission is require to call web api"
+    },
+    "device-storage:apps": {
+      "name": "device-storage",
+      "access": "readwrite"
+    },
+    "device-storage:sdcard": {
+      "name": "device-storage:sdcard",
+      "access": "readwrite"
+    },
+    "persistent-storage": {},
+    "webapps-manage": {},
+    "audio-capture": {},
+    "audio-channel-content": {},
+    "browser": {},
+    "udp-socket": {
+      "description": "Used for ssdp implementation."
+    },
+    "tcp-socket": {
+      "description": "Create TCP sockets and communicate over them."
+    },
+    "volumemanager": {},
+    "donglemanager": {
+      "description": "Used for the local IP address."
+    }
+  }
+}
