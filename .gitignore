@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+.DS_Store
+node_modules
+.tmp
+/node_modules
+/dist
+/.tmp
+*.orig
+*.*~
+.DS_Store
+*.DS_Store
