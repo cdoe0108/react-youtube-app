@@ -17,7 +17,6 @@ class VideoPlayer extends React.Component{
         
         return (
                 <div>
-                    <div><b>{this.props.location.query.id}</b></div>
                     <YouTube
                         id={this.props.location.query.id}
                         videoId={this.props.location.query.id}
