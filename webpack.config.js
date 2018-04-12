@@ -27,7 +27,7 @@ var production = [
             warnings: false,
 
          // Drop console statements
-            drop_console: true
+            drop_console: false
        }
     })
 ];

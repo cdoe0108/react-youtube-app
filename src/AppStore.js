@@ -11,7 +11,7 @@ class AppStore extends EventEmitter {
       const apiUrl = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=redux&key=AIzaSyBzYxWSgwmN3bM_PU6PKtjkMMhjq0no8-E";
       //const apiUrl = "https://www.googleapis.com/youtube/v3/videos?part=snippet&id=1cH2cerUpMQ,tnncRm1yrWk&key=AIzaSyBzYxWSgwmN3bM_PU6PKtjkMMhjq0no8-E";
      
-      var request = new XMLHttpRequest();
+      var request = new XMLHttpRequest({ mozSystem: true });
       request.onreadystatechange = (e) => {
         if (request.readyState !== 4) {
           return;
